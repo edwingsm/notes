@@ -5,6 +5,7 @@
 - <http://www.baeldung.com/java-memory-management-interview-questions>
 - <https://www.yourkit.com/docs/kb/sizes.jsp>
 - <https://www.journaldev.com/2856/java-jvm-memory-model-memory-management-in-java>
+- <http://www.javamadesoeasy.com/2016/12/series-of-jvm-and-garbage-collection-gc.html>
 
 ## Java Heap Space
 
