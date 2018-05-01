@@ -1,7 +1,10 @@
 # Java Memory
 
-<https://stackoverflow.com/questions/41358895/permgen-is-part-of-heap-or-not>
-<https://www.journaldev.com/4098/java-heap-space-vs-stack-memory>
+- <https://stackoverflow.com/questions/41358895/permgen-is-part-of-heap-or-not>
+- <https://www.journaldev.com/4098/java-heap-space-vs-stack-memory>
+- <http://www.baeldung.com/java-memory-management-interview-questions>
+- <https://www.yourkit.com/docs/kb/sizes.jsp>
+- <https://www.journaldev.com/2856/java-jvm-memory-model-memory-management-in-java>
 
 ## Java Heap Space
 
