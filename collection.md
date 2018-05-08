@@ -21,3 +21,17 @@ In brief:
 - A queue is also ordered, but you'll only ever touch elements at one end. All elements get inserted at the "end" and removed from the "beginning" (or head) of the queue. You can find out how many elements are in the queue, but you can't find out what, say, the "third" element is. You'll see it when you get there.
 
 - A set is not ordered and cannot contain duplicates. Any given object either is or isn't in the set. {7, 5, 3, 1} is the exact same set as {1, 7, 1, 3, 1, 1, 1, 5}. You again can't ask for the "third" element or even the "first" element, since they are not in any particular order. You can add or remove elements, and you can find out if a certain element exists (e.g., "is 7 in this set?")
+
+| *HashMap*       | *LinkedHashMap*           | *TreeMap*  |
+| ------------- |-------------| -----|
+| Extends AbstractMap class. | Extends HashMap class. | Extends AbstractMap class. |
+| Implements Map interface. | Implements Map interface. | Implements NavigableMap and SortedMap interfaces. |
+| Provide constant time performance for ‘get’ and ‘put’ operations.  | Implementation of Hash Table and Linked List. | Underlying data structure is Red-Black Tree. |
+| No Iteration Order. | Maintains a doubly-linked list | Insertion order is not maintained. |
+| Key can be null. | Iteration takes place in the order in which the entries were put into the map. | Sorted according to the natural order of keys. |
+| Value can be null.   | Fail-fast. | Fail-fast behavior is not guaranteed always. |
+| Fail-fast. | Key can be null. | Key can’t be null; if it’s null,  java.lang.NullPointerException occurs.  |
+| Duplicate keys are not allowed. | Value can be null. | Keys must be of same type; if not,  java.lang.ClassCastException occurs. |
+| Implementation is not synchronized. | Duplicate keys are not allowed. | Value can be null. |
+| |Implementation is not synchronized. |Duplicate keys are not allowed. |
+|||Implementation is not synchronized.
